@@ -12,6 +12,7 @@ const searchStates = async (searchText) => {
 
   if (!searchText) {
     matches = [];
+    matchList.innerHTML = "";
   }
 
   outputHtml(matches);
